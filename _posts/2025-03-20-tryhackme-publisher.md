@@ -13,7 +13,7 @@ In this post, I will walk you through how I successfully exploited a vulnerabili
 
 ## Reconnaissance
 
-To begin, I scanned the target IP (10.10.x.x) with Nmap to gather information about the services running on the machine:
+In begin, I scanned the target IP (10.10.x.x) with Nmap to gather information about the services running on the machine:
 
 ```console
 nmap -sC -sV -Pn 10.10.x.x

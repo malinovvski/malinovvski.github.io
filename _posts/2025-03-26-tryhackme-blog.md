@@ -22,6 +22,7 @@ nmap -sC -sV -Pn blog.thm
 wpscan --url http://www.blog.thm 
 ```
 
+## Exploitation
 From the scans, I learn that the WordPress version is 5.0, and I launch Metasploit in search of ready-made exploits.
 
 
@@ -203,6 +204,7 @@ You have been terminated for the following reasons:
 • Repeated offenses regarding tardiness
 ```
 
+## Privilege Escalation
 I proceed with the privilege escalation attempt. The first step is to search for SUID files that I can use for escalation.
 
 ```console
@@ -228,9 +230,10 @@ Not an Admin
 
 I analyze the code using the tool **ltrace**
 
+```console
+ > ltrace /usr/sbin/checker
+ ```
 ```yaml
-> ltrace /usr/sbin/checker
-
 getenv("admin")                                  = nil
 puts("Not an Admin"Not an Admin
 )                             = 13
@@ -241,7 +244,7 @@ puts("Not an Admin"Not an Admin
 **getenv("admin) = nil** this means that the **admin** environment variable does not exist at the moment in the process environment. I try to set the admin environment variable manually to attempt to gain administrator privileges.
 
 ```bash
-export admin=true
+> export admin=true
 ```
 
 And I run the program again.

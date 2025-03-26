@@ -266,3 +266,10 @@ find / -type f -name "root.txt" 2>/dev/null
 
 <br>**user.txt :** c8421899aae571f7af486492b71a8ab7 
 <br>**root.txt:**  9a0b2b618bef9bfa7ac28c1353d9f318
+
+
+
+
+
+During my research, I found a very interesting article about exploiting WordPress sites, which I will post here for future reference.
+https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-web/wordpress.html#xml-rpc

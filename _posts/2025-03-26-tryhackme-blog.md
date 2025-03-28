@@ -16,10 +16,10 @@ Enumerate this box and find the 2 flags that are hiding on it!  Billy has some w
 ## Reconnaissance
 
 ```console
-nmap -sC -sV -Pn blog.thm  
+> nmap -sC -sV -Pn blog.thm  
 ```
 ```console
-wpscan --url http://www.blog.thm 
+> wpscan --url http://www.blog.thm 
 ```
 
 ## Exploitation
@@ -27,8 +27,8 @@ From the scans, I learn that the WordPress version is 5.0, and I launch Metasplo
 
 
 ```console
-msfconsole
-search wordpress 5.0
+> msfconsole
+> search wordpress 5.0
 ```
 
 I see several potential exploits to use.
@@ -75,7 +75,7 @@ Name       Current Setting  Required  Description
 I use this again with **wpscan** 
 
 ```console
-wpscan --url blog.thm -P /usr/share/wordlists/rockyou.txt
+> wpscan --url blog.thm -P /usr/share/wordlists/rockyou.txt
 ```
 
 I find two users: **kwheel** and **bjoel** 
@@ -105,7 +105,7 @@ I find two users: **kwheel** and **bjoel**
 I will now try to obtain the password for this account using the bruteforce method. I can do this in several ways, for example by using **Hydra**, but in this case, I decided to stick with **WPScan**.
 
 ```console
-wpscan --url blog.thm --usernames kwheel --passwords /usr/share/wordlists/rockyou.txt 
+> wpscan --url blog.thm --usernames kwheel --passwords /usr/share/wordlists/rockyou.txt 
 ```
 
 After a short while, I manage to obtain the password using the bruteforce method.

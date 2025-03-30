@@ -252,7 +252,7 @@ nQ7bDS+3X9G7K3coFoFV8TxVgwjetbKkSMzssJ3mhXXPMj+7Ty0A
 
 ```
 
-Then I entered client and received:
+Then I entered **client** and received:
 
 ```yaml
 Sounds like you forgot your certificate. Let's find it for you...
@@ -441,7 +441,7 @@ fred@b3dr0ck:~$
 
 And I retrieve the next flag.
 
-Flag 2 : THM{08da34e619da839b154521da7323559d}
+**Flag 2 : THM{08da34e619da839b154521da7323559d}**
 
 ## Root access
 
@@ -486,4 +486,4 @@ root@b3dr0ck:~# cat root.txt
 THM{de4043c009214b56279982bf10a661b7}
 root@b3dr0ck:~# 
 ```
-Root Flag : THM{de4043c009214b56279982bf10a661b7}
+**Root Flag : THM{de4043c009214b56279982bf10a661b7}**

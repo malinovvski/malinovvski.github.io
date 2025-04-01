@@ -3,10 +3,11 @@ title: "TryHackMe - U.A High School"
 date: 2025-04-01 12:00:00 +0000
 author: scr4tcher
 categories: [TryHackMe CTF]
-tags: [ssh, gobuster, ,rce, cyberchef, hexeditor, dirsearch, reverse shell ]
+tags: [ssh, gobuster, rce, cyberchef, hexeditor, dirsearch, revese shell]
+
 ---
 
-# Reconnaissance
+## Reconnaissance
 The first step in my approach was conducting a comprehensive Nmap scan to identify open ports and services running on the target machine:
 
 ```console
@@ -54,7 +55,7 @@ Additional finding:
 ```
 /images               (Status: 301) [Size: 320] [--> http://10.10.109.87/assets/images/]
 ```
-# Identifying RCE Vulnerability
+## Identifying RCE Vulnerability
 Switching to dirsearch:
 ```
 dirsearch -u 10.10.109.87/assets/index.php
@@ -73,7 +74,7 @@ http://10.10.109.87/assets/index.php/p_/webdav/xmltools/minidom/xml/sax/saxutils
 ```
 This successfully granted me shell access.
 
-# Privilege Escalation - Discovering Hidden Credentials
+## Privilege Escalation - Discovering Hidden Credentials
 
 I proceed to the regular system shell
 
@@ -138,7 +139,7 @@ Using the provided credentials, I log into the deku account via SSH and successf
 
 **Flag : THM{W3lC0m3_D3kU_1A_0n3f0rAll??}**
 
-# Root Privilege Escalation
+## Root Privilege Escalation
 
 Checking sudo privileges:
 
@@ -245,3 +246,5 @@ __   __               _               _   _                 _____ _
 THM{Y0U_4r3_7h3_NUm83r_1_H3r0}
 
 ```
+
+**Flag : THM{Y0U_4r3_7h3_NUm83r_1_H3r0}**

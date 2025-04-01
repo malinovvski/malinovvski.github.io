@@ -1,9 +1,9 @@
 ---
 title: "TryHackMe - U.A High School"
-date: 2025-02-01 12:00:00 +0000
+date: 2025-04-01 12:00:00 +0000
 author: scr4tcher
 categories: [TryHackMe CTF]
-tags: [ssh, gobuster, ,rce, cyberchef, hexeditor, dirsearch ]
+tags: [ssh, gobuster, ,rce, cyberchef, hexeditor, dirsearch, reverse shell ]
 ---
 
 # Reconnaissance

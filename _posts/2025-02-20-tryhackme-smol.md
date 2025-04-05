@@ -3,7 +3,7 @@ title: "TryHackMe - Smol"
 date: 2025-02-20 22:00:00 +0000
 author: scr4tcher
 categories: [TryHackMe CTF]
-tags: [wordPress, exploits, privilege escalation, reverse shell]
+tags: [wordpress, exploits, privilege escalation, reverse shell]
 
 ---
 

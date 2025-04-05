@@ -1,6 +1,6 @@
 ---
 title: "CTFLearn - Don't Bump your Head(er)"
-date: 2025-04-06 00:30:00 +0000
+date: 2025-04-03 00:00:00 +0000
 author: scr4tcher
 categories: [CTFLearn]
 tags: [header, curl]

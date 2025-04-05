@@ -3,7 +3,7 @@ title: "CTFLearn - POST Practice"
 date: 2025-04-05 12:00:00 +0000
 author: scr4tcher
 categories: [CTFLearn]
-tags: [post, curl]
+tags: [post-request, curl]
 
 ---
 

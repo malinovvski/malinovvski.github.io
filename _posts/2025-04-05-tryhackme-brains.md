@@ -3,7 +3,7 @@ title: "TryHackMe - Brains"
 date: 2025-04-05 12:00:00 +0000
 author: scr4tcher
 categories: [TryHackMe CTF]
-tags: [CVE-2024-27198, rce, jetbrains, metasploit, splunk, teamcity  ]
+tags: [CVE-2024-27198, rce, jetbrains, metasploit, splunk, teamcity ]
 
 ---
 ## Introduction
@@ -43,11 +43,11 @@ Network Distance: 2 hops
 Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ```
-I notice an open port 50000, which takes me to the TeamCity login page. Immediately, the version 2023.11.3 in use catches my eye.
+I notice an open port **50000**, which takes me to the **TeamCity** login page. Immediately, the version **2023.11.3** in use catches my eye.
 
 ![jetbrainversion](/images/brains/brainsteamcityversion.png)
 
-I searched the internet to check if there were any exploits related to this version of JetBrains TeamCity and found the vulnerability [CVE-2024-27198](https://www.rapid7.com/blog/post/2024/03/04/etr-cve-2024-27198-and-cve-2024-27199-jetbrains-teamcity-multiple-authentication-bypass-vulnerabilities-fixed/)
+I searched the internet to check if there were any exploits related to this version of **JetBrains TeamCity** and found the vulnerability [CVE-2024-27198](https://www.rapid7.com/blog/post/2024/03/04/etr-cve-2024-27198-and-cve-2024-27199-jetbrains-teamcity-multiple-authentication-bypass-vulnerabilities-fixed/)
 
 ## Exploitation
 I launch Metasploit.

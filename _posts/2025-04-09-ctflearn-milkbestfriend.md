@@ -17,7 +17,7 @@ In this challenge, we're provided with a `.jpg` image file that potentially cont
 I start by downloading the image file `oreo.jpg` from the link provided by the challenge author.
     
 # 2. Initial String Analysis 
- <br>I run the strings command to extract printable character sequences from the image file:</br>
+ <br>I run the strings command to extract printable character sequences from the image file:
     
 
 

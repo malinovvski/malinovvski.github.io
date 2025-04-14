@@ -181,7 +181,7 @@ and
 ```
 on my machine.
 
-```yaml
+```console
 --2025-03-26 09:15:11--  http://blog.thm:8000/Billy_Joel_Termination_May20-2020.pdf
 Resolving blog.thm (blog.thm)... 10.10.73.119
 Connecting to blog.thm (blog.thm)|10.10.73.119|:8000... connected.

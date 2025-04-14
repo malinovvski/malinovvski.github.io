@@ -21,7 +21,7 @@ nmap -p- -sC -sV -A 10.10.103.133
 ```
 
 
-```yaml
+```console
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-30 12:38 EDT
 Nmap scan report for 10.10.103.133
 Host is up (0.088s latency).

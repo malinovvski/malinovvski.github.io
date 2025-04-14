@@ -31,7 +31,7 @@ Here's a breakdown of the options:
 
 ## Analyzing the scan results
 
-```yaml
+```console
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-03-28 07:51 EDT
 Nmap scan report for 10.10.56.174
 Host is up (0.068s latency).

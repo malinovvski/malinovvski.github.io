@@ -8,7 +8,7 @@ tags: [strings, jpg, steganography]
 ---
 ## Descirption
 
-https://mega.nz/#!LoABFK5K!0sEKbsU3sBUG8zWxpBfD1bQx_JY_MuYEWQvLrFIqWZ0
+**https://mega.nz/#!LoABFK5K!0sEKbsU3sBUG8zWxpBfD1bQx_JY_MuYEWQvLrFIqWZ0**
 
 You Know What To Do ...
 
@@ -19,7 +19,8 @@ As part of the CTF challenge analysis, I download a `.jpg` file from a link prov
 I perform a `strings` analysis on the file and identify several interesting pieces of information:
 
 
-```console
+```terminal
+
 JFIF
 Exif
 8Photoshop 3.0
@@ -48,7 +49,7 @@ bj'j
 [m[m[mZ4
 _|RW
 zgm19
--{{?_
+-{?_
 :UWXV
 A_~{
 [mRQ.
@@ -261,15 +262,17 @@ e$Ef
 yQ(u$65
 4"< 
 s^)V
+
 ```
 Among the extracted data, I find a link:
 
-- https://mega.nz/#!z8hACJbb!vQB569ptyQjNEoxIwHrUhwWu5WCj1JWmU-OFjf90Prg -N17hGnFBfJliykJxXu8 -
+- **https://mega.nz/#!z8hACJbb!vQB569ptyQjNEoxIwHrUhwWu5WCj1JWmU-OFjf90Prg** -N17hGnFBfJliykJxXu8 -
 
 and possible credentials:
-- Mp real_unlock_key: Nothing Is As It SeemsU
 
--  password: Really? Again
+- **Mp real_unlock_key: Nothing Is As It SeemsU**
+
+-  **password: Really? Again**
 
 I also locate a decoy flag: 
  - flag{Not_So_Simple...}.

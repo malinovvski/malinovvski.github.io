@@ -96,7 +96,7 @@ Upon inspecting the web app, I noticed it allowed uploading PowerShell scripts â
 
 I generated a basic reverse shell using [Reverse Shell Generator](https://www.revshells.com), then uploaded it to the web application by exploiting the RCE vulnerability in order to obtain a shell.
 
-![shell](/images/stealth/shell.jpg)
+
 
 and launched the listener:
 

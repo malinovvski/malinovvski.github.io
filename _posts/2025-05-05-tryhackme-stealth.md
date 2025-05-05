@@ -3,7 +3,7 @@ title: "TryHackMe - Stealth"
 date: 2025-05-05 12:00:00 +0000
 author: scr4tcher
 categories: [TryHackMe CTF]
-tags: [windows exploitation, EfsPotato, rdp, php, PrivescCheck ,privilege escalation, reverse shell, p0wny shell, EFSRPC ]
+tags: [windows exploitation, EfsPotato, rdp, php, PrivescCheck, privilege escalation, reverse shell, p0wny shell, EFSRPC ]
 ---
 
 ## Reconnaissance

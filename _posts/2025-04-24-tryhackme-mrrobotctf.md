@@ -3,7 +3,7 @@ title: "TryHackMe - Mr. Robot CTF"
 date: 2025-04-24 12:00:00 +0000
 author: scr4tcher
 categories: [TryHackMe CTF]
-tags: [wordpress , php, mrrobot, reverse shell, gobuster, nmap, GTFObins  ]
+tags: [wordpress , php, mrrobot, reverse shell, gobuster, nmap, GTFOBins ]
 ---
 
 

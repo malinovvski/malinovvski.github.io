@@ -167,7 +167,7 @@ Deleting it allowed the hidden PHP page to load correctly and reveal the first f
 
 ![1flag](/images/stealth/3page-1stflag.jpg)
 
-Using the [PrivescCheck tool]((https://github.com/itm4n/PrivescCheck) ), I scanned the local permissions:
+Using the [PrivescCheck tool](https://github.com/itm4n/PrivescCheck), I scanned the local permissions:
 
 `powershell -ep bypass -c ". .\PrivescCheck.ps1; Invoke-PrivescCheck -Extended -Report PrivescCheck_$($env:COMPUTERNAME) -Format TXT,HTML"`
 

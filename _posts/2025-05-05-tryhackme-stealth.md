@@ -96,12 +96,12 @@ Upon inspecting the web app, I noticed it allowed uploading PowerShell scripts â
 
 I generated a basic reverse shell using [Reverse Shell Generator](https://www.revshells.com), then uploaded it to the web application by exploiting the RCE vulnerability in order to obtain a shell.
 
-
+![shell](/images/stealth/shell.jpg)
 
 and launched the listener:
 
 ```
- nc -nvlp 4444
+nc -nvlp 4444
 ```
 
 After successful upload, reverse shell connected to my listener. I got access as user `evader`. I found an encoded message on the evader's `Desktop`
@@ -141,7 +141,7 @@ Hint: Maybe removing the logs files for file uploads can help?`
 
 Guided by hints provided by the CTF author, I conducted a thorough examination of the file system in search of relevant log files. Deleting a file from the **Documents** directory did not produce any results. After further inspection, the expected behavior was only triggered upon removing `log.txt` from the `xampp\htdocs\uploads` directory.
 
-```
+```console
 ls
 EFI PerfLogs Program Files Program Files (x86) Tools Users Windows xampp
 cd xampp

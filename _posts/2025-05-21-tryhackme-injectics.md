@@ -3,7 +3,7 @@ title: "TryHackMe - Injectics"
 date: 2025-05-21 12:00:00 +0000
 author: scr4tcher
 categories: [TryHackMe CTF]
-tags: [SSTI, Twig, reverse shell, burpsuite, web exploitation,  ]
+tags: [SSTI, Twig, reverse shell, burpsuite, web exploitation, sql injection  ]
 ---
 
 

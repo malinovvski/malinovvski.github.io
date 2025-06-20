@@ -82,7 +82,7 @@ Suspecting a vulnerability, I attempted to inject a simple XSS payload by sendin
 I hosted a listener with Python:
 
 ```
-sudo python3 -m http.server 80
+sudo python3 -m http.server 1337
 ```
 
 

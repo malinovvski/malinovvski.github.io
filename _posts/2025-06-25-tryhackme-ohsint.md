@@ -1,6 +1,6 @@
 ---
 title: "TryHackMe - ohSINT"
-date: 2025-06-20 12:00:00 +0000
+date: 2025-06-25 12:00:00 +0000
 author: scr4tcher
 categories: [TryHackMe CTF]
 tags: [OSINT]

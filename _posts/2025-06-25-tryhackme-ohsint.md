@@ -116,7 +116,7 @@ Question : Where has he gone on holiday?
 
 ## Discovering the Password
 
-Finally, I decided to inspect the source code of one of [his WordPress blog pages](https://oliverwoodflint.wordpress.com/category/uncategorised/):
+Finally, I decided to inspect the source code of one of [his WordPress blog pages](https://oliverwoodflint.wordpress.com/category/uncategorised/)
 
 
 While scanning the HTML, I noticed a suspicious line that didn’t seem like standard content. That turned out to be his password.
@@ -125,6 +125,15 @@ While scanning the HTML, I noticed a suspicious line that didn’t seem like sta
 
 ## Summary of Findings
 
+|Question                                           | 	Answer            | 
+| :---------------------------                      | :---------------    |
+| What is this user's avatar of?                    | cat                 |
+| What city is this person in?                      | London              |
+| What is the SSID of the WAP he connected to?      | UnileverWiFi        |
+| What is his personal email address?               | OWoodflint@gmail.com|
+| What site did you find his email address on?      | Github              |
+| Where has he gone on holiday?                     | New York            |
+| What is the person's password?                    | pennYDr0pper.!      |
 
 
 ## Final Thoughts

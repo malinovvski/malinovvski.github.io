@@ -3,7 +3,7 @@ title: "TryHackMe - What's Your Name?"
 date: 2025-06-20 12:00:00 +0000
 author: scr4tcher
 categories: [TryHackMe CTF]
-tags: [xss, CSRF ]
+tags: [xss, CSRF]
 --- 
 
 

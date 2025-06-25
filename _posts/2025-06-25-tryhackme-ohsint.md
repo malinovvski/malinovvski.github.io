@@ -125,15 +125,6 @@ While scanning the HTML, I noticed a suspicious line that didn’t seem like sta
 
 ## Summary of Findings
 
-|Question                                           | 	Answer            | 
-| :---------------------------                      | :---------------    |
-| What is this user's avatar of?                    | cat                 |
-| What city is this person in?                      | London              |  
-| What is the SSID of the WAP he connected to?      | UnileverWiFi        |     
-| What is his personal email address?               | OWoodflint@gmail.com|
-| What site did you find his email address on?      | Github              |
-| Where has he gone on holiday?                     | New York            |
-| What is the person's password?                    | pennYDr0pper.!      |
 
 
 ## Final Thoughts

@@ -157,7 +157,7 @@ And finally, success.
 
 ## Summary
 
-This was a short but creative challenge where understanding how the AI interprets your commands was key to success. Here's what worked for me:
+This was a short and easy but creative challenge where understanding how the AI interprets your commands was key to success. Here's what worked for me:
 
 - Start with simple recon: whoami, ls -la, etc.
 
